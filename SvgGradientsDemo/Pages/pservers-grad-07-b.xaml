@@ -5,6 +5,30 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" d:DesignHeight="360" d:DesignWidth="480">
     <Canvas Background="White" Width="480" Height="360">
-        <!-- TODO: -->
+        <Canvas.RenderTransform>
+            <ScaleTransform ScaleX="1" ScaleY="1.5"/>
+        </Canvas.RenderTransform>
+        <Rectangle Canvas.Left="10" Canvas.Top="10" Width="440" Height="60">
+            <Rectangle.Fill>
+                <!-- gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="440" y2="10" -->
+                <!-- NOTE: Asjust StartPoint and EndPoint to -Canvas.Left and -Canvas.Top -->
+                <LinearGradientBrush StartPoint="0,0" EndPoint="430,0" MappingMode="Absolute">
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Canvas.Left="10" Canvas.Top="66" FontSize="24" Text="Linear gradient filled rectangle"/>
+        <Rectangle Canvas.Left="25" Canvas.Top="110" Width="400" Height="30" StrokeThickness="20">
+            <Rectangle.Stroke>
+                <!-- gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="440" y2="10" -->
+                <!-- NOTE: Asjust StartPoint and EndPoint to -Canvas.Left and -Canvas.Top -->
+                <LinearGradientBrush StartPoint="-15,-100" EndPoint="415,-100" MappingMode="Absolute">
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <TextBlock Canvas.Left="10" Canvas.Top="146" FontSize="24" Text="Linear gradient on stroke of rectangle"/>
     </Canvas>
 </UserControl>
