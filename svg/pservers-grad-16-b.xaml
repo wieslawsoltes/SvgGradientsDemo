@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svgroot" Width="480" Height="360">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <!--Unknown tag: font-face-->
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: d:SVGTestCase-->
+    <Canvas Name="testbodycontent">
+      <Canvas.Resources>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="defs1" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection/>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="defs2" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="1"/>
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="defs3" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,0">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#ffff00" Offset="0"/>
+              <GradientStop Color="#FF4488" Offset=".25"/>
+              <GradientStop Color="#008000" Offset=".5"/>
+              <GradientStop Color="#0000ff" Offset=".1"/>
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </Canvas.Resources>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="20" Canvas.Top="10" Width="440" Height="80" Name="rect3737" Fill="{StaticResource defs1}" Stroke="#FFFF4488"/>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="20" Canvas.Top="110" Width="440" Height="80" Name="rect3739" Fill="{StaticResource defs2}"/>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="20" Canvas.Top="210" Width="440" Height="80" Name="rect3741" Fill="{StaticResource defs3}"/>
+    </Canvas>
+    <Canvas Name="g3745">
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="32" Foreground="#000000" Canvas.Left="10" Canvas.Top="308" Name="revision">$Revision: 1.5 $</TextBlock>
+    </Canvas>
+    <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="1" Canvas.Top="1" Width="478" Height="358" Name="testframe" Stroke="#FF000000"/>
+    <!--Unknown tag: metadata-->
+  </Canvas>
+</Viewbox>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svgroot" Width="480" Height="360">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <!--Unknown tag: font-face-->
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: d:SVGTestCase-->
+    <Canvas Name="testbodycontent">
+      <Canvas.Resources>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="Grad1" MappingMode="Absolute" Center="65,90" GradientOrigin="65,90" RadiusX="130" RadiusY="130">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000099" Offset="0"/>
+              <GradientStop Color="#22EE22" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="Grad2" MappingMode="Absolute" Center="45,70" GradientOrigin="45,70" RadiusX="150" RadiusY="150">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#EE2222" Offset="0"/>
+              <GradientStop Color="#FFFF66" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="Grad3" MappingMode="Absolute" Center="215,-30" GradientOrigin="215,-30" RadiusX="90" RadiusY="90">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#006600" Offset="0"/>
+              <GradientStop Color="#ffff00" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="Grad4" MappingMode="Absolute" Center="215,-25" GradientOrigin="215,-25" RadiusX="90" RadiusY="90">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#DD66DD" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+      </Canvas.Resources>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="10" Canvas.Top="10" Width="210" Height="140" Name="rect2711" Fill="{StaticResource Grad1}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="12" FontFamily="Arial" Canvas.Left="10" Canvas.Top="153" Name="text2713">Radial gradient on fill of rectangle</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="250" Canvas.Top="30" Width="170" Height="100" Name="rect2720" StrokeThickness="40" Stroke="{StaticResource Grad2}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="12" FontFamily="Arial" Canvas.Left="230" Canvas.Top="153" Name="text2722">Radial gradient on stroke of rectangle</TextBlock>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="50" FontFamily="Arial" Foreground="{StaticResource Grad3}" Canvas.Left="10" Canvas.Top="160" Name="text2729">Gradient on text fill</TextBlock>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="12" FontFamily="Arial" Canvas.Left="10" Canvas.Top="213" Name="text2731">Radial gradient on text, black to yellow</TextBlock>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="45" FontFamily="Arial" Canvas.Left="10" Canvas.Top="225" Name="text2738">Gradient on text stroke</TextBlock>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="12" FontFamily="Arial" Canvas.Left="10" Canvas.Top="273" Name="text2740">Radial gradient on stroke of text, black to red</TextBlock>
+    </Canvas>
+    <Canvas Name="g2744">
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="32" Foreground="#000000" Canvas.Left="10" Canvas.Top="308" Name="revision">$Revision: 1.8 $</TextBlock>
+    </Canvas>
+    <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="1" Canvas.Top="1" Width="478" Height="358" Name="testframe" Stroke="#FF000000"/>
+    <!--Unknown tag: metadata-->
+  </Canvas>
+</Viewbox>

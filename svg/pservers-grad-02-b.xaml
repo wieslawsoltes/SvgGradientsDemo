@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svgroot" Width="480" Height="360">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <!--Unknown tag: font-face-->
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: d:SVGTestCase-->
+    <Canvas Name="testbodycontent">
+      <Canvas.Resources>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="Grad2a" MappingMode="RelativeToBoundingBox" Center="1,1" GradientOrigin="1,1" RadiusX=".5" RadiusY=".5">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#FFA500" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="Grad2b" MappingMode="Absolute" Center="220,40" GradientOrigin="220,40" RadiusX="40" RadiusY="40">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#FFA500" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+      </Canvas.Resources>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="20" Canvas.Top="20" Width="440" Height="80" Name="rect1320" Fill="{StaticResource Grad2a}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="30" Canvas.Left="20" Canvas.Top="100" Name="text1322">Radial gradient.</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="20" Canvas.Top="150" Width="440" Height="80" Name="rect1324" Fill="{StaticResource Grad2b}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="30" Canvas.Left="20" Canvas.Top="230" Name="text1326">Referencing gradient below.</TextBlock>
+    </Canvas>
+    <Canvas Name="g1330">
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="32" Foreground="#000000" Canvas.Left="10" Canvas.Top="308" Name="revision">$Revision: 1.8 $</TextBlock>
+    </Canvas>
+    <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="1" Canvas.Top="1" Width="478" Height="358" Name="testframe" Stroke="#FF000000"/>
+    <!--Unknown tag: metadata-->
+  </Canvas>
+</Viewbox>

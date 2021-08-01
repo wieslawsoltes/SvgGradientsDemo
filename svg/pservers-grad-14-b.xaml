@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svgroot" Width="480" Height="360">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <!--Unknown tag: font-face-->
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: d:SVGTestCase-->
+    <Canvas Name="testbodycontent">
+      <Canvas.Resources>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="lgSpreadPad" MappingMode="Absolute" SpreadMethod="Pad" StartPoint="40,-60" EndPoint="90,-60">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="lgSpreadReflect" MappingMode="Absolute" SpreadMethod="Reflect" StartPoint="40,-130" EndPoint="90,-130">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="lgSpreadRepeat" MappingMode="Absolute" SpreadMethod="Repeat" StartPoint="40,-200" EndPoint="90,-200">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="lgSpreadDefault" MappingMode="Absolute" StartPoint="40,-270" EndPoint="90,-270">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="rgSpreadPad" MappingMode="RelativeToBoundingBox" SpreadMethod="Pad" Center="1,1" RadiusX="0.2" RadiusY="0.2">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="rgSpreadReflect" MappingMode="RelativeToBoundingBox" SpreadMethod="Reflect" Center="1,1" RadiusX="0.2" RadiusY="0.2">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="rgSpreadRepeat" MappingMode="RelativeToBoundingBox" SpreadMethod="Repeat" Center="1,1" RadiusX="0.2" RadiusY="0.2">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+        <RadialGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="rgSpreadDefault" MappingMode="RelativeToBoundingBox" Center="1,1" RadiusX="0.2" RadiusY="0.2">
+          <RadialGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#000000" Offset="0"/>
+              <GradientStop Color="#ffd700" Offset="1"/>
+            </GradientStopCollection>
+          </RadialGradientBrush.GradientStops>
+        </RadialGradientBrush>
+      </Canvas.Resources>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="20" Canvas.Left="240" Canvas.Top="10" HorizontalAlignment="Center" Name="text3517">Gradient 'spreadMethod' values</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="10" Canvas.Top="060" Width="225" Height="40" Name="rect3519" Fill="{StaticResource lgSpreadPad}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="10" Canvas.Top="39" Name="text3521">spreadMethod="pad"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="10" Canvas.Top="130" Width="225" Height="40" Name="rect3523" Fill="{StaticResource lgSpreadReflect}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="10" Canvas.Top="109" Name="text3525">spreadMethod="reflect"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="10" Canvas.Top="200" Width="225" Height="40" Name="rect3527" Fill="{StaticResource lgSpreadRepeat}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="10" Canvas.Top="179" Name="text3529">spreadMethod="repeat"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="10" Canvas.Top="270" Width="225" Height="40" Name="rect3531" Fill="{StaticResource lgSpreadDefault}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="10" Canvas.Top="249" Name="text3533">spreadMethod="default"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="245" Canvas.Top="060" Width="225" Height="40" Name="rect3535" Fill="{StaticResource rgSpreadPad}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="245" Canvas.Top="39" Name="text3537">spreadMethod="pad"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="245" Canvas.Top="130" Width="225" Height="40" Name="rect3539" Fill="{StaticResource rgSpreadReflect}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="245" Canvas.Top="109" Name="text3541">spreadMethod="reflect"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="245" Canvas.Top="200" Width="225" Height="40" Name="rect3543" Fill="{StaticResource rgSpreadRepeat}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="245" Canvas.Top="179" Name="text3545">spreadMethod="repeat"</TextBlock>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="245" Canvas.Top="270" Width="225" Height="40" Name="rect3547" Fill="{StaticResource rgSpreadDefault}"/>
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="16" Canvas.Left="245" Canvas.Top="249" Name="text3549">spreadMethod="default"</TextBlock>
+    </Canvas>
+    <Canvas Name="g3553">
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="32" Foreground="#000000" Canvas.Left="10" Canvas.Top="308" Name="revision">$Revision: 1.5 $</TextBlock>
+    </Canvas>
+    <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="1" Canvas.Top="1" Width="478" Height="358" Name="testframe" Stroke="#FF000000"/>
+    <!--Unknown tag: metadata-->
+  </Canvas>
+</Viewbox>

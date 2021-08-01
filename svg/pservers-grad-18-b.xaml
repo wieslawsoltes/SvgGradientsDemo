@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is NOT compatible with Silverlight-->
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svgroot" Width="480" Height="360">
+    <Canvas.RenderTransform>
+      <TranslateTransform X="0" Y="0"/>
+    </Canvas.RenderTransform>
+    <Canvas.Resources>
+      <!--Unknown tag: font-face-->
+    </Canvas.Resources>
+    <!--Unknown tag: sodipodi:namedview-->
+    <!--Unknown tag: d:SVGTestCase-->
+    <Canvas Name="testbodycontent">
+      <Canvas Name="g0">
+        <Canvas.Resources>
+          <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="MyGradient1" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+            <LinearGradientBrush.GradientStops>
+              <GradientStopCollection>
+                <GradientStop Color="#FF008000" Offset="0"/>
+                <GradientStop Color="inherit" Offset="1"/>
+              </GradientStopCollection>
+            </LinearGradientBrush.GradientStops>
+          </LinearGradientBrush>
+          <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="MyGradient2" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+            <LinearGradientBrush.GradientStops>
+              <GradientStopCollection>
+                <GradientStop Color="#FF008000" Offset="0"/>
+                <GradientStop Color="#008000" Offset="1"/>
+              </GradientStopCollection>
+            </LinearGradientBrush.GradientStops>
+          </LinearGradientBrush>
+          <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="MyGradient3" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+            <LinearGradientBrush.GradientStops>
+              <GradientStopCollection>
+                <GradientStop Color="#FF008000" Offset="0"/>
+                <GradientStop Color="#000000" Offset="1"/>
+              </GradientStopCollection>
+            </LinearGradientBrush.GradientStops>
+          </LinearGradientBrush>
+          <LinearGradientBrush xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Key="MyGradient4" MappingMode="RelativeToBoundingBox" StartPoint="0,0" EndPoint="1,1">
+            <LinearGradientBrush.GradientStops>
+              <GradientStopCollection>
+                <GradientStop Color="#FF008000" Offset="0"/>
+                <GradientStop Color="currentColor" Offset="1"/>
+              </GradientStopCollection>
+            </LinearGradientBrush.GradientStops>
+          </LinearGradientBrush>
+        </Canvas.Resources>
+      </Canvas>
+      <Canvas Name="g1">
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="50" Canvas.Top="50" Width="100" Height="100" Name="r1" Fill="{StaticResource MyGradient1}"/>
+      </Canvas>
+      <Canvas Name="g2">
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="200" Canvas.Top="50" Width="100" Height="100" Name="r2" Fill="{StaticResource MyGradient2}"/>
+      </Canvas>
+      <Canvas Name="g3">
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="50" Canvas.Top="200" Width="100" Height="100" Name="r3" Fill="{StaticResource MyGradient3}"/>
+      </Canvas>
+      <Canvas Name="g4">
+        <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="200" Canvas.Top="200" Width="100" Height="100" Name="r4" Fill="{StaticResource MyGradient4}"/>
+      </Canvas>
+    </Canvas>
+    <Canvas Name="g3978">
+      <TextBlock xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" FontSize="32" Foreground="#000000" Canvas.Left="10" Canvas.Top="308" Name="revision">$Revision: 1.5 $</TextBlock>
+    </Canvas>
+    <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="1" Canvas.Top="1" Width="478" Height="358" Name="testframe" Stroke="#FF000000"/>
+    <!--Unknown tag: metadata-->
+  </Canvas>
+</Viewbox>
