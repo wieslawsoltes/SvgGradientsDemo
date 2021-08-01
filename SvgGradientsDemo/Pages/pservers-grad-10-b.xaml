@@ -5,6 +5,42 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" d:DesignHeight="360" d:DesignWidth="480">
     <Canvas Background="White" Width="480" Height="360">
-        <!-- TODO: -->
+        <TextBlock Canvas.Left="10" Canvas.Top="10" FontSize="15" Text="Testing spreadMethod attribute"/>
+        <Rectangle Canvas.Left="10" Canvas.Top="35" Width="460" Height="55">
+            <Rectangle.Fill>
+                <!-- gradientUnits="objectBoundingBox" x1=".4" y1="0" x2=".6" y2="0" spreadMethod="pad" -->
+                <LinearGradientBrush StartPoint="0.4,0" EndPoint="0.6,0" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Blue" Offset="0"/>
+                        <GradientStop Color="Lime" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Canvas.Left="10" Canvas.Top="93" FontSize="12" Text="spreadMethod=pad"/>
+        <Rectangle Canvas.Left="10" Canvas.Top="120" Width="460" Height="55">
+            <Rectangle.Fill>
+                <!-- gradientUnits="objectBoundingBox" x1=".4" y1="0" x2=".6" y2="0" spreadMethod="reflect" -->
+                <LinearGradientBrush StartPoint="0.4,0" EndPoint="0.6,0" SpreadMethod="Reflect" MappingMode="RelativeToBoundingBox">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Blue" Offset="0"/>
+                        <GradientStop Color="Lime" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Canvas.Left="10" Canvas.Top="178" FontSize="12" Text="spreadMethod=reflect"/>
+        <Rectangle Canvas.Left="10" Canvas.Top="205" Width="460" Height="55">
+            <Rectangle.Fill>
+                <!-- gradientUnits="objectBoundingBox" x1=".4" y1="0" x2=".6" y2="0" spreadMethod="repeat" -->
+                <LinearGradientBrush StartPoint="0.4,0" EndPoint="0.6,0" SpreadMethod="Repeat" MappingMode="RelativeToBoundingBox">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Blue" Offset="0"/>
+                        <GradientStop Color="Lime" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Canvas.Left="10" Canvas.Top="263" FontSize="12" Text="spreadMethod=repeat"/>
     </Canvas>
 </UserControl>
