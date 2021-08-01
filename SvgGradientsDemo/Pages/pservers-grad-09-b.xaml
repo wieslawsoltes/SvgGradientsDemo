@@ -8,7 +8,8 @@
         <TextBlock Canvas.Left="10" Canvas.Top="10" FontSize="15" Text="Testing gradientUnits attribute"/>
         <Rectangle Canvas.Left="125" Canvas.Top="35" Width="200" Height="50">
             <Rectangle.Fill>
-                <LinearGradientBrush MappingMode="RelativeToBoundingBox">
+                <!-- defaults -->
+                <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
                         <GradientStop Color="Lime" Offset="0"/>
                         <GradientStop Color="Blue" Offset="1" />
@@ -18,6 +19,7 @@
         </Rectangle>
         <Rectangle Canvas.Left="10" Canvas.Top="125" Width="430" Height="50">
             <Rectangle.Fill>
+                <!-- gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" -->
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" MappingMode="RelativeToBoundingBox">
                     <LinearGradientBrush.GradientStops>
                         <GradientStop Color="Blue" Offset="0"/>
@@ -36,6 +38,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
             <Rectangle.Fill>
+                <!-- x1="0" y1="0" x2="0" y2="430" gradientUnits="userSpaceOnUse" -->
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,430" MappingMode="Absolute">
                     <LinearGradientBrush.GradientStops>
                         <GradientStop Color="Lime" Offset="0"/>
