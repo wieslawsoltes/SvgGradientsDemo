@@ -5,6 +5,44 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d" d:DesignHeight="360" d:DesignWidth="480">
     <Canvas Background="White" Width="480" Height="360">
-        <!-- TODO: -->
+        <TextBlock Canvas.Left="10" Canvas.Top="10" FontSize="15" Text="Testing gradientUnits attribute"/>
+        <Rectangle Canvas.Left="125" Canvas.Top="35" Width="200" Height="50">
+            <Rectangle.Fill>
+                <LinearGradientBrush MappingMode="RelativeToBoundingBox">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Lime" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Canvas.Left="10" Canvas.Top="125" Width="430" Height="50">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" MappingMode="RelativeToBoundingBox">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Blue" Offset="0"/>
+                        <GradientStop Color="Lime" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Canvas.Left="0" Canvas.Top="0" Width="50" Height="430">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform CenterY="0.5" CenterX="0.5" />
+                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                    <RotateTransform CenterY="0.5" CenterX="0.5" Angle="-90"/>
+                    <TranslateTransform X="10" Y="260"/><!-- NOTE: Asjust  X and Y to -Canvas.Left and -Canvas.Top -->
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,430" MappingMode="Absolute">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Color="Lime" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
     </Canvas>
 </UserControl>
