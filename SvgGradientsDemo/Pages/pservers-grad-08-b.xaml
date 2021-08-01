@@ -5,6 +5,31 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" d:DesignHeight="360" d:DesignWidth="480">
     <Canvas Background="White" Width="480" Height="360">
-        <!-- TODO: -->
+        <Canvas.RenderTransform>
+            <ScaleTransform ScaleX="1" ScaleY="1.5"/>
+        </Canvas.RenderTransform>
+        <TextBlock Canvas.Left="20" Canvas.Top="70" FontFamily="Blocky" FontSize="68" Text="Gradient on fill">
+            <TextBlock.Foreground>
+                <!-- gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="440" y2="10" -->
+                <!-- NOTE: Asjust StartPoint and EndPoint to -Canvas.Left and -Canvas.Top -->
+                <LinearGradientBrush StartPoint="-10,-60" EndPoint="420,-60" MappingMode="Absolute">
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock Canvas.Left="40" Canvas.Top="145" FontSize="28" Text="Linear gradient on filled text"/>
+        <!-- NOTE: No stroke brush support in WPF? -->
+        <TextBlock Canvas.Left="20" Canvas.Top="160" FontFamily="Blocky" FontSize="55" Text="Gradient on stroke">
+            <TextBlock.Foreground>
+                <!-- gradientUnits="userSpaceOnUse" x1="10" y1="10" x2="440" y2="10" -->
+                <!-- NOTE: Asjust StartPoint and EndPoint to -Canvas.Left and -Canvas.Top -->
+                <LinearGradientBrush StartPoint="-10,-150" EndPoint="420,-150" MappingMode="Absolute">
+                    <GradientStop Color="Blue" Offset="0"/>
+                    <GradientStop Color="Lime" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock Canvas.Left="30" Canvas.Top="280" FontSize="28" Text="Linear gradient on stroke of text"/>
     </Canvas>
 </UserControl>
