@@ -1,0 +1,112 @@
+﻿<Window x:Class="SvgGradientsDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:pages="clr-namespace:SvgGradientsDemo.Pages"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        SizeToContent="WidthAndHeight"
+        MinWidth="480" MinHeight="360">
+    <TabControl TabStripPlacement="Left">
+        <TabItem Header="pservers_grad_01_b">
+            <pages:pservers_grad_01_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_02_b">
+            <pages:pservers_grad_02_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_02_b">
+            <pages:pservers_grad_03_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_04_b">
+            <pages:pservers_grad_04_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_05_b">
+            <pages:pservers_grad_05_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_06_b">
+            <pages:pservers_grad_06_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_07_b">
+            <pages:pservers_grad_07_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_08_b">
+            <pages:pservers_grad_08_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_09_b">
+            <pages:pservers_grad_09_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_10_b">
+            <pages:pservers_grad_10_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_11_b">
+            <pages:pservers_grad_11_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_12_b">
+            <pages:pservers_grad_12_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_13_b">
+            <pages:pservers_grad_13_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_14_b">
+            <pages:pservers_grad_14_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_15_b">
+            <pages:pservers_grad_15_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_16_b">
+            <pages:pservers_grad_16_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_17_b">
+            <pages:pservers_grad_17_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_18_b">
+            <pages:pservers_grad_18_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_20_b">
+            <pages:pservers_grad_20_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_21_b">
+            <pages:pservers_grad_21_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_22_b">
+            <pages:pservers_grad_22_b/>
+        </TabItem>
+        <TabItem Header="pservers_grad_23_f">
+            <pages:pservers_grad_23_f/>
+        </TabItem>
+        <TabItem Header="pservers_grad_24_f">
+            <pages:pservers_grad_24_f/>
+        </TabItem>
+        <TabItem Header="pservers_grad_stops_01_f">
+            <pages:pservers_grad_stops_01_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_01_b">
+            <pages:pservers_pattern_01_b/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_02_f">
+            <pages:pservers_pattern_02_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_03_f">
+            <pages:pservers_pattern_03_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_04_f">
+            <pages:pservers_pattern_04_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_05_f">
+            <pages:pservers_pattern_05_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_06_f">
+            <pages:pservers_pattern_06_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_07_f">
+            <pages:pservers_pattern_07_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_08_f">
+            <pages:pservers_pattern_08_f/>
+        </TabItem>
+        <TabItem Header="pservers_pattern_09_f">
+            <pages:pservers_pattern_09_f/>
+        </TabItem>
+    </TabControl>
+</Window>
