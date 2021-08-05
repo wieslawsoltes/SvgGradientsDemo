@@ -6,7 +6,6 @@
         xmlns:pages="clr-namespace:SvgGradientsDemo.Pages"
         mc:Ignorable="d"
         Title="MainWindow" 
-        SizeToContent="WidthAndHeight"
         MinWidth="480" MinHeight="360">
     <TabControl TabStripPlacement="Left">
         <TabItem Header="pservers_grad_01_b">
@@ -107,6 +106,9 @@
         </TabItem>
         <TabItem Header="pservers_pattern_09_f">
             <pages:pservers_pattern_09_f/>
+        </TabItem>
+        <TabItem Header="SandBox">
+            <pages:SandBox/>
         </TabItem>
     </TabControl>
 </Window>
